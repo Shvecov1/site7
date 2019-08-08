@@ -9,23 +9,62 @@ body {
     width: 100%;
     height: 100vh;
     position: relative;
+    font-family: 'Russo One', sans-serif;
+    color: #000000;
+    font-size: 240px;
+    text-align: center;
+}
+
+.shvec {
+    width: 100%;
+    font-family: 'Russo One', sans-serif;
+    color: #000000;
+    font-size: 240px;
+    text-align: center;
+    position: absolute;
+    margin-top: 350px;
+}
+
+.png {
+    background-image: url(../img/img4.png);
+    background-repeat: no-repeat;
+    width: auto;
+    height: 250px;
+    background-size: contain;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: 425px auto 0px 836px;
+    position: absolute;
 }
 
 .container1 {
     width: 100%;
     height: 100vh;
     background-image: url(../img/img2.jpg);
+    background-size: cover;
     display: flex;
+    background-repeat: no-repeat;
 }
 
-.text {
-    
-    height: 500px;
+.text1 {
+    font-family: 'Russo One', sans-serif;
+    color: #343535;
+    position: absolute;
+    font-size: 89px;
+    width: 450px;
+    margin: 155px 0 0px 262px;
+    text-align: center;
+}
+
+.text { 
+    width: 800px;
+    height: 0;
     font-family: 'Francois One', sans-serif;
     color: #343535;
     font-size: 35px;
     justify-content: right;
-    margin: 170px 0px 0 1025px;
+    margin: 163px 0px 0 1025px;
 }
 
 .container-site-head {
@@ -34,17 +73,18 @@ body {
 }
 
 .container-site {
-    width: 706px;
+    width: 100%;
     height: 525px;
     transition: 0.3s;
+    position: relative;
 }
 
 a {
-    width: 705px;
+    width: 100%;
     font-family: 'Francois One', sans-serif;
     font-size: 76px;
     color: #fef4e5;
-    margin: 190px 0px 0 -34px;
+    margin-top: 190px;
     text-decoration: none;
     position: absolute;
     text-align: center;
@@ -63,15 +103,15 @@ a {
 }
 
 .block4 {
-    background-color: #fdc2b0;
+    background-color: #ffad94;
 }
 
 .block5 {
-    background-color: #fed0c1;
+    background-color: #ca8973;
 }
 
 .block6 {
-    background-color: #d3ceae;
+    background-color: #faefa7;
 }
 
 .container-site:hover {
@@ -82,7 +122,64 @@ a {
 .price {
     width: 100%;
     height: 100vh;
-    background-image: url(../img/img3.jpg);
+    background-color: #ffe1bd;
     background-size: cover;
     background-repeat: no-repeat;
+    position: relative;
+}
+
+.price1 {
+    font-family: 'Russo One', sans-serif;
+    font-size: 95px;
+    color: #343535;
+    position: absolute;
+    margin: 50px 0 0 50px;
+}
+
+.container-price-site {
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+    font-size: 62px;
+    color: #343535;
+    position: absolute;
+    margin: 82px 0 0 975px;
+}
+
+.container-price {
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+    font-size: 62px;
+    color: #343535;
+    position: absolute;
+    margin: 82px 0px 0px 1679px;
+}
+
+hr {
+    display: block;
+    width: 46.2%;
+    color: #343535;
+    margin: 150px 0 0 976px;
+    position: absolute;
+    border: none;
+    border-bottom: #343535 2px solid;
+}
+
+.container-price-text {
+    display: inline;
+    font-family: 'Russo One', sans-serif;
+    position: absolute;
+    font-size: 25px;
+    color: #343535;
+    margin: 0 0 0 0;
+    line-height: 50px;
+}
+
+.container-price-text1 {
+    display: flex;
+    width: 28%;
+    font-family: 'Russo One', sans-serif;
+    position: absolute;
+    font-size: 25px;
+    color: #343535;
+    line-height: 50px;
 }
